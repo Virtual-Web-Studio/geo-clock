@@ -20,5 +20,8 @@
     "psr-4": {
       "GeoClock\\Tests\\": "tests/"
     }
+  },
+  "provide": {
+    "psr/clock-implementation": "1.0"
   }
 }

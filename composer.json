@@ -1,0 +1,24 @@
+{
+  "name": "virtual-web-studio/geo-clock",
+  "description": "PSR-20 Clock implementation that returns current time based on server geolocation",
+  "type": "library",
+  "license": "MIT",
+  "require": {
+    "php": "^8.4",
+    "psr/clock": "^1.0",
+    "guzzlehttp/guzzle": "^7.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^10"
+  },
+  "autoload": {
+    "psr-4": {
+      "GeoClock\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "GeoClock\\Tests\\": "tests/"
+    }
+  }
+}
